@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A3CB6CB1F5A98AC00FD4569 /* MuteVolume+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CB6CA1F5A98AC00FD4569 /* MuteVolume+Util.m */; };
 		5AF14F9A1B32A904005D448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14F991B32A904005D448E /* main.m */; };
 		5AF14FAB1B32AA2D005D448E /* Volume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14FAA1B32AA2D005D448E /* Volume.m */; };
 		5AF14FAE1B32B76D005D448E /* MuteVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14FAD1B32B76D005D448E /* MuteVolume.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5A3CB6C91F5A98AC00FD4569 /* MuteVolume+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MuteVolume+Util.h"; sourceTree = "<group>"; };
+		5A3CB6CA1F5A98AC00FD4569 /* MuteVolume+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MuteVolume+Util.m"; sourceTree = "<group>"; };
 		5AF14F961B32A904005D448E /* PracticeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF14F991B32A904005D448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AF14FA91B32AA2D005D448E /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volume.h; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				5AF14F991B32A904005D448E /* main.m */,
 				5AF14FAC1B32B6D1005D448E /* MuteVolume.h */,
 				5AF14FAD1B32B76D005D448E /* MuteVolume.m */,
+				5A3CB6C91F5A98AC00FD4569 /* MuteVolume+Util.h */,
+				5A3CB6CA1F5A98AC00FD4569 /* MuteVolume+Util.m */,
 			);
 			path = PracticeObjC;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3CB6CB1F5A98AC00FD4569 /* MuteVolume+Util.m in Sources */,
 				5AF14F9A1B32A904005D448E /* main.m in Sources */,
 				5AF14FAE1B32B76D005D448E /* MuteVolume.m in Sources */,
 				5AF14FAB1B32AA2D005D448E /* Volume.m in Sources */,
