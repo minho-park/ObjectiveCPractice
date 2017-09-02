@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5AF14F9A1B32A904005D448E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14F991B32A904005D448E /* main.m */; };
+		5AF14FAB1B32AA2D005D448E /* Volume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14FAA1B32AA2D005D448E /* Volume.m */; };
+		5AF14FAE1B32B76D005D448E /* MuteVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF14FAD1B32B76D005D448E /* MuteVolume.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		5AF14F961B32A904005D448E /* PracticeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF14F991B32A904005D448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AF14FA91B32AA2D005D448E /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volume.h; sourceTree = "<group>"; };
+		5AF14FAA1B32AA2D005D448E /* Volume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volume.m; sourceTree = "<group>"; };
+		5AF14FAC1B32B6D1005D448E /* MuteVolume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MuteVolume.h; sourceTree = "<group>"; };
+		5AF14FAD1B32B76D005D448E /* MuteVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuteVolume.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		5AF14F981B32A904005D448E /* PracticeObjC */ = {
 			isa = PBXGroup;
 			children = (
+				5AF14FA91B32AA2D005D448E /* Volume.h */,
+				5AF14FAA1B32AA2D005D448E /* Volume.m */,
 				5AF14F991B32A904005D448E /* main.m */,
+				5AF14FAC1B32B6D1005D448E /* MuteVolume.h */,
+				5AF14FAD1B32B76D005D448E /* MuteVolume.m */,
 			);
 			path = PracticeObjC;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AF14F9A1B32A904005D448E /* main.m in Sources */,
+				5AF14FAE1B32B76D005D448E /* MuteVolume.m in Sources */,
+				5AF14FAB1B32AA2D005D448E /* Volume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +151,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -181,6 +194,7 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -205,6 +219,8 @@
 		5AF14F9E1B32A904005D448E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +228,8 @@
 		5AF14F9F1B32A904005D448E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +253,7 @@
 				5AF14F9F1B32A904005D448E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
