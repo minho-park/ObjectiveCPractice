@@ -18,5 +18,13 @@ int main(int argc, const char * argv[]) {
 	TestObj2 *obj2 = [[TestObj2 alloc] init];
 	TestObj3 *obj3 = [[TestObj3 alloc] init];
 	
+	[obj1 requiredLogTest];
+	
+	if ([obj1 respondsToSelector:@selector(optionalLogTest)]) {
+		[obj1 optionalLogTest];
+	}
+	
+	[obj2 protocolTest:obj1];
+	
     return 0;
 }

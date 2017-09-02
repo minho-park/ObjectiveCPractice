@@ -24,4 +24,10 @@
 	
 	return self;
 }
+
+- (void)protocolTest:(id<TestObjProtocol>)testObj
+{
+	[testObj requiredLogTest];
+}
+
 @end
