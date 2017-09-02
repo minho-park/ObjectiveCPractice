@@ -40,6 +40,7 @@
 		5A3CB6D41F5A9D5C00FD4569 /* TestObj2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj2.m; sourceTree = "<group>"; };
 		5A3CB6D61F5A9E3800FD4569 /* TestObj3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj3.h; sourceTree = "<group>"; };
 		5A3CB6D71F5A9E3800FD4569 /* TestObj3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj3.m; sourceTree = "<group>"; };
+		5A3CB6D91F5AA48400FD4569 /* TestObjProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjProtocol.h; sourceTree = "<group>"; };
 		5AF14F961B32A904005D448E /* PracticeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF14F991B32A904005D448E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AF14FA91B32AA2D005D448E /* Volume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volume.h; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3CB6D01F5A9D5100FD4569 /* TestObj.h */,
+				5A3CB6D91F5AA48400FD4569 /* TestObjProtocol.h */,
 				5A3CB6D11F5A9D5100FD4569 /* TestObj.m */,
 				5A3CB6D31F5A9D5C00FD4569 /* TestObj2.h */,
 				5A3CB6D41F5A9D5C00FD4569 /* TestObj2.m */,

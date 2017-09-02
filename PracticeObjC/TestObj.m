@@ -25,4 +25,9 @@
 	return self;
 }
 
+- (void)requiredLogTest
+{
+	NSLog(@"this is requiredLogTest");
+}
+
 @end
